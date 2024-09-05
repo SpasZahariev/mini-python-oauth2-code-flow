@@ -1,6 +1,10 @@
 from flask import Flask, request
 import threading
 import webbrowser
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
